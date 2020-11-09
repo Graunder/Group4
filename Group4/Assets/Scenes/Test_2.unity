@@ -468,7 +468,7 @@ GameObject:
   - component: {fileID: 83764717}
   - component: {fileID: 83764716}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: '[HUD]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1673,7 +1673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 317127044}
   m_Layer: 0
-  m_Name: BackGround
+  m_Name: '[BackGround]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4976,6 +4976,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1538841133}
     m_Modifications:
+    - target: {fileID: 7073778906718446312, guid: 5715e1502feb37f40963d9817ec72d33,
+        type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7073778906718446313, guid: 5715e1502feb37f40963d9817ec72d33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5276,7 +5281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419790631}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -38.3, y: 2.58, z: 1}
+  m_LocalPosition: {x: -38.3, y: 3.89, z: 1}
   m_LocalScale: {x: 0.47743863, y: 0.47743863, z: 0.47743863}
   m_Children: []
   m_Father: {fileID: 74699810}
@@ -6731,7 +6736,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 28.692495, y: -3.0588143}
+  m_Offset: {x: 29.90567, y: -3.0588143}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6742,7 +6747,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 143.46497, y: 7.1176286}
+  m_Size: {x: 315.24283, y: 7.1176286}
   m_EdgeRadius: 0
 --- !u!4 &1645521305
 Transform:

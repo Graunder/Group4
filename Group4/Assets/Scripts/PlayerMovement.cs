@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
         moveHorizontal = joystick.Horizontal * speed;
 
         //Uncomment to enable "wasd" movement for testing in editor
-        //moveHorizontal = Input.GetAxisRaw("Horizontal") * speed;
+        moveHorizontal = Input.GetAxisRaw("Horizontal") * speed;
     }
 
     public void Jump() {
