@@ -64,15 +64,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 61
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -81,29 +73,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11194}
     - Class: 114
-      Script: {instanceID: 11534}
+      Script: {instanceID: 11536}
     - Class: 114
-      Script: {instanceID: 12200}
+      Script: {instanceID: 12202}
     - Class: 114
-      Script: {instanceID: 12252}
+      Script: {instanceID: 12254}
     - Class: 114
-      Script: {instanceID: 12382}
+      Script: {instanceID: 12384}
     - Class: 114
-      Script: {instanceID: 12488}
+      Script: {instanceID: 12908}
     - Class: 114
-      Script: {instanceID: 12906}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13256}
+      Script: {instanceID: 13276}
     - Class: 114
-      Script: {instanceID: 13274}
+      Script: {instanceID: 13580}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13680}
     - Class: 114
-      Script: {instanceID: 13678}
+      Script: {instanceID: 13956}
     - Class: 114
-      Script: {instanceID: 13954}
-    - Class: 114
-      Script: {instanceID: 14292}
+      Script: {instanceID: 14294}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -152,35 +142,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11194}
     - Class: 114
-      Script: {instanceID: 11534}
+      Script: {instanceID: 11252}
     - Class: 114
-      Script: {instanceID: 11616}
+      Script: {instanceID: 11536}
     - Class: 114
-      Script: {instanceID: 12200}
+      Script: {instanceID: 11618}
     - Class: 114
-      Script: {instanceID: 12488}
+      Script: {instanceID: 12202}
     - Class: 114
-      Script: {instanceID: 12906}
+      Script: {instanceID: 12490}
     - Class: 114
-      Script: {instanceID: 13032}
+      Script: {instanceID: 12908}
     - Class: 114
-      Script: {instanceID: 13246}
+      Script: {instanceID: 13034}
     - Class: 114
-      Script: {instanceID: 13256}
+      Script: {instanceID: 13248}
     - Class: 114
-      Script: {instanceID: 13350}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13468}
+      Script: {instanceID: 13352}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 13470}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13474}
     - Class: 114
-      Script: {instanceID: 13678}
+      Script: {instanceID: 13580}
     - Class: 114
-      Script: {instanceID: 14292}
+      Script: {instanceID: 13680}
     - Class: 114
-      Script: {instanceID: 26228}
+      Script: {instanceID: 14294}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -220,6 +210,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: d7912c765efb61cb6ee4c7c78f120d21
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreCounter
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -760,12 +756,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: d7912c765efb61cb6ee4c7c78f120d21
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScoreCounter
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main_Menu.unity
